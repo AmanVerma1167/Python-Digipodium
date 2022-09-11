@@ -25,6 +25,7 @@ elif Basic_salary > 30000 or Basic_salary <= 40000:
     print("Gross Salary Of Employee:",Gross_salary)            
 
 elif Basic_salary > 20000 and Basic_salary <= 30000:
+elif Basic_salary > 20000  or Basic_salary <= 30000:
     Gross_salary = Basic_salary+((Basic_salary*2.2)/100)+((Basic_salary*7)/100)
     print("Gross Salary Of Employee:",Gross_salary) 
 
