@@ -1,6 +1,3 @@
-from statistics import median
-
-
 x = []
 
 for i in range(10):
