@@ -47,9 +47,21 @@ my_string5 = """Hello, welcome to
 the world of python"""
 print(my_string5)
 
+# second type 
+
+data = ''
+while True:
+    line = input()
+    if not line:
+        break
+    data += line + '\n'
+print('------>OUTPUT<------')  
+print(len(data),'chars')  
+
+
 # (10) Print this string to move to newline '\n' is used. (results should look exactly like the provided string)
 
-my_strings6 = "to move to newline '\n' is used"
+my_strings6 = "to move to newline '\\n' is used"
 print(my_strings6)
 
 # (11) Print a variable with some text using a single print function, output should look like following
