@@ -43,12 +43,6 @@ print(content)
 
 # (9) Print a multiline string using a single print
 
-my_string5 = """Hello, welcome to 
-the world of python"""
-print(my_string5)
-
-# second type 
-
 data = ''
 while True:
     line = input()
